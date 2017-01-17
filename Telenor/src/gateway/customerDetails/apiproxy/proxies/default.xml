@@ -40,7 +40,7 @@
         </Response>
     </PostClientFlow>
     <HTTPProxyConnection>
-        <BasePath>/v4/customerdetails</BasePath>
+        <BasePath>/v1/customerdetails</BasePath>
         <Properties/>
         <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
