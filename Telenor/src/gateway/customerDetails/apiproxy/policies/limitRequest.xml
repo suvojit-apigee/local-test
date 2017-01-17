@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="limitRequest" type="calendar">
+    <DisplayName>limitRequest</DisplayName>
+    <Properties/>
+    <Allow count="10"/>
+    <Interval>1</Interval>
+    <TimeUnit>minute</TimeUnit>
+    <StartTime>2016-7-22 00:00:00</StartTime>
+    <AsynchronousConfiguration>
+        <SyncIntervalInSeconds>20</SyncIntervalInSeconds>
+        <SyncMessageCount>5</SyncMessageCount>
+    </AsynchronousConfiguration>
+</Quota>

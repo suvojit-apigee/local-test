@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractCustomerDetails">
+    <DisplayName>ExtractCustomerDetails</DisplayName>
+    <Properties/>
+    <QueryParam name="ID">
+        <Pattern ignoreCase="true">{ID}</Pattern>
+    </QueryParam>
+    <QueryParam name="FIRSTNAME">
+        <Pattern ignoreCase="true">{FIRSTNAME}</Pattern>
+    </QueryParam>
+    <QueryParam name="LASTNAME">
+        <Pattern ignoreCase="true">{LASTNAME}</Pattern>
+    </QueryParam>
+    <QueryParam name="STREET">
+        <Pattern ignoreCase="true">{STREET}</Pattern>
+    </QueryParam>
+    <QueryParam name="CITY">
+        <Pattern ignoreCase="true">{CITY}</Pattern>
+    </QueryParam>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Source clearPayload="false">request</Source>
+    <VariablePrefix>apigee</VariablePrefix>
+</ExtractVariables>
