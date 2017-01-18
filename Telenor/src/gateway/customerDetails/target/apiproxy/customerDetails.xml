@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="9" name="customerDetails">
+    <Basepaths>/v4/customerdetails</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1483797640655</CreatedAt>
+    <CreatedBy>suvojitc@rssoftware.co.in</CreatedBy>
+    <Description>This API will provide the list of the customers</Description>
+    <DisplayName>customerDetails</DisplayName>
+    <LastModifiedAt>1484048932379</LastModifiedAt>
+    <LastModifiedBy>suvojitc@rssoftware.co.in</LastModifiedBy>
+    <Policies>
+        <Policy>ConvertToJSON</Policy>
+        <Policy>ExtractCustomerDetails</Policy>
+        <Policy>MessageLogger</Policy>
+        <Policy>Verify-API-Key</Policy>
+        <Policy>checkCustomer</Policy>
+        <Policy>fault_limitRequest</Policy>
+        <Policy>limitRequest</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://CheckCustomerDetails.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
