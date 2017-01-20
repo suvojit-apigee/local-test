@@ -28,5 +28,5 @@
     <TargetEndpoints>
         <TargetEndpoint>default</TargetEndpoint>
     </TargetEndpoints>
-    <validate>false</validate>
+    <validate>fals</validate>
 </APIProxy>
