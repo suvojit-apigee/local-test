@@ -121,7 +121,7 @@
 			<apigee.options>${options}</apigee.options> <apigee.override.delay>10</apigee.override.delay> 
 			<apigee.delay>1000</apigee.delay> </properties> </profile> -->
 		<profile>
-			<id>GenericBuild</id>
+			<id>Test</id>
 			<properties>
 				<org>rssoftwarestaging</org>
 				<options>update</options>
