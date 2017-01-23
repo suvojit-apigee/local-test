@@ -24,7 +24,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>/Cards_Jmeter/pom.xml</module>
-        <module>/customerDetails_Jmeter/pom.xml</module>
+        <module>/customerDetails/pom.xml</module>
         <module>/Loyalty_Jmeter/pom.xml</module>
         <module>/OTP_Jmeter/pom.xml</module>
         <module>/transactions_Jmeter/pom.xml</module>
