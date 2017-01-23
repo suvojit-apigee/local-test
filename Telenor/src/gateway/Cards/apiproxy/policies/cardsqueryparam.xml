@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="cardsqueryparam">
+    <DisplayName>cardsqueryparam</DisplayName>
+    <Properties/>
+    <Source>request</Source>
+    <QueryParam name="indicator_status">
+        <Pattern ignoreCase="true">{indicator_status}</Pattern>
+    </QueryParam>
+</ExtractVariables>

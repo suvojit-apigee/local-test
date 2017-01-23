@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="page-number">
+    <DisplayName>page number</DisplayName>
+    <Properties/>
+    <QueryParam name="page-number">
+        <Pattern ignoreCase="true">{page-number}</Pattern>
+    </QueryParam>
+    <Source clearPayload="false">request</Source>
+</ExtractVariables>

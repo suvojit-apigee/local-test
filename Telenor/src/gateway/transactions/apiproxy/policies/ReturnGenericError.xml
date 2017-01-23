@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="ReturnGenericError">
+    <DisplayName>ReturnGenericError</DisplayName>
+    <Properties/>
+    <Set>
+        <Payload type="text/plain">SERVICE UNAVAILABLE. PLEASE CONTACT SUPPORT: support@fis.com.</Payload>
+    </Set>
+</AssignMessage>

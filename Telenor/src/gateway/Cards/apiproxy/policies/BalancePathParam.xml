@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="BalancePathParam">
+    <DisplayName>BalancePathParam</DisplayName>
+    <Properties/>
+    <URIPath>
+        <Pattern ignoreCase="true">/cards/{param1}/balances</Pattern>
+    </URIPath>
+    <URIPath>
+        <Pattern ignoreCase="true">/cards/{param1}/activate</Pattern>
+    </URIPath>
+    <URIPath>
+        <Pattern ignoreCase="true">/cards/{param1}/deactivate</Pattern>
+    </URIPath>
+    <URIPath>
+        <Pattern ignoreCase="true">/cards/{param1}/accounts</Pattern>
+    </URIPath>
+</ExtractVariables>

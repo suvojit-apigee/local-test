@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="6" name="Loyalty">
+    <Basepaths>/v1/loyalty</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1478884292575</CreatedAt>
+    <CreatedBy>debajyotimukherjee80@gmail.com</CreatedBy>
+    <Description>LoyaltyService</Description>
+    <DisplayName>Loyalty</DisplayName>
+    <LastModifiedAt>1479906316379</LastModifiedAt>
+    <LastModifiedBy>debajyotimukherjee80@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>ExtractPoints</Policy>
+        <Policy>StoreAPIKey</Policy>
+        <Policy>extractsubscriptionid</Policy>
+        <Policy>loyalty</Policy>
+        <Policy>loyaltyapikey</Policy>
+        <Policy>loyaltyenquire</Policy>
+        <Policy>loyaltyextractpath</Policy>
+        <Policy>loyaltyextractquery</Policy>
+        <Policy>loyaltymessage</Policy>
+        <Policy>loyaltyredeem</Policy>
+        <Policy>offers</Policy>
+        <Policy>offersdetails</Policy>
+        <Policy>removequeryparamapikey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://loyalty.js</Resource>
+        <Resource>jsc://loyaltyenquire.js</Resource>
+        <Resource>jsc://loyaltyredeem.js</Resource>
+        <Resource>jsc://offers.js</Resource>
+        <Resource>jsc://offersdetails.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>

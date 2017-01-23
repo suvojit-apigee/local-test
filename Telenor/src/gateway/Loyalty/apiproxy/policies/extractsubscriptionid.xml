@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="extractsubscriptionid">
+    <DisplayName>extractsubscriptionid</DisplayName>
+    <Properties/>
+    <Source>request</Source>
+    <URIPath>
+        <Pattern ignoreCase="true">/loyalty-subscriptions/{subscriptionid}/redeem</Pattern>
+    </URIPath>
+    <URIPath>
+        <Pattern ignoreCase="true">/loyalty-subscriptions/{subscriptionid}/offers</Pattern>
+    </URIPath>
+    <URIPath>
+        <Pattern ignoreCase="true">/offers/{offerid}</Pattern>
+    </URIPath>
+</ExtractVariables>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="OTP">
+    <Basepaths>/v1/auth</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1479363273709</CreatedAt>
+    <CreatedBy>debajyotimukherjee80@gmail.com</CreatedBy>
+    <Description>OTP</Description>
+    <DisplayName>OTP</DisplayName>
+    <LastModifiedAt>1479791956275</LastModifiedAt>
+    <LastModifiedBy>debajyotimukherjee80@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>APIKeyOTP</Policy>
+        <Policy>OTPKeyassignmessage</Policy>
+        <Policy>OTPScript</Policy>
+        <Policy>OTP_AssignMessage</Policy>
+        <Policy>OTP_QueryParam</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://OTPScript.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>

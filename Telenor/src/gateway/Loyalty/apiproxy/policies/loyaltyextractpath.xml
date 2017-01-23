@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="loyaltyextractpath">
+    <DisplayName>loyaltyextractpath</DisplayName>
+    <Properties/>
+    <URIPath>
+        <Pattern ignoreCase="true">/loyalty-subscriptions/{param1}</Pattern>
+    </URIPath>
+    <URIPath>
+        <Pattern ignoreCase="true">/loyalty-subscriptionsloyalty/redeem/{param1}</Pattern>
+    </URIPath>
+</ExtractVariables>

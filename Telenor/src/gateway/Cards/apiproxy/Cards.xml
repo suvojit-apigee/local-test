@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="7" name="Cards">
+    <Basepaths>/v1/issuance</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1479040194542</CreatedAt>
+    <CreatedBy>debajyotimukherjee80@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Cards</DisplayName>
+    <LastModifiedAt>1479211764773</LastModifiedAt>
+    <LastModifiedBy>debajyotimukherjee80@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>AssignMessageBalance</Policy>
+        <Policy>Balance</Policy>
+        <Policy>BalancePathParam</Policy>
+        <Policy>StoreAPIKey</Policy>
+        <Policy>Verify-API-Key_cards</Policy>
+        <Policy>active</Policy>
+        <Policy>cardsinactqueryparam</Policy>
+        <Policy>cardsqueryparam</Policy>
+        <Policy>customerdetails</Policy>
+        <Policy>inactive</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://config.js</Resource>
+        <Resource>node://server-usergrid.js</Resource>
+        <Resource>jsc://Balance.js</Resource>
+        <Resource>jsc://active.js</Resource>
+        <Resource>jsc://customerdetails.js</Resource>
+        <Resource>jsc://inactive.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>

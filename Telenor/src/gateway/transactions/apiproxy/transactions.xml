@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="transactions">
+    <Basepaths>/v1/reports</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1479212225970</CreatedAt>
+    <CreatedBy>sujits@rssoftware.co.in</CreatedBy>
+    <Description>Returns transaction related details</Description>
+    <DisplayName>transactions</DisplayName>
+    <LastModifiedAt>1479805726649</LastModifiedAt>
+    <LastModifiedBy>sujits@rssoftware.co.in</LastModifiedBy>
+    <Policies>
+        <Policy>FromDateExtraction</Policy>
+        <Policy>ReturnGenericError</Policy>
+        <Policy>ToDateExtraction</Policy>
+        <Policy>accountid</Policy>
+        <Policy>page-number</Policy>
+        <Policy>transactionhistory</Policy>
+        <Policy>transactionssecurityverify</Policy>
+        <Policy>transassignmessagekey</Policy>
+        <Policy>unknown-resource</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://transactionhistory.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>

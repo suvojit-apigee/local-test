@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request>
+            <Step>
+                <Name>APIKeyOTP</Name>
+            </Step>
+            <Step>
+                <Name>OTPKeyassignmessage</Name>
+            </Step>
+            <Step>
+                <Name>OTP_AssignMessage</Name>
+            </Step>
+        </Request>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows>
+        <Flow name="OTP">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>remove-query-param-apikey</Name>
+                </Step>
+                <Step>
+                    <Name>OTP_QueryParam</Name>
+                </Step>
+            </Request>
+            <Request>
+                <Step>
+                    <Name>OTP_QueryParam</Name>
+                </Step>
+            </Request>
+            <Response>
+                <Step>
+                    <Name>OTPScript</Name>
+                </Step>
+            </Response>
+            <Condition>(proxy.pathsuffix MatchesPath "/one-time-passwords/generate") and (request.verb = "POST")</Condition>
+        </Flow>
+    </Flows>
+    <HTTPProxyConnection>
+        <BasePath>/v1/auth</BasePath>
+        <Properties/>
+        <VirtualHost>default</VirtualHost>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="noroute"/>
+</ProxyEndpoint>
