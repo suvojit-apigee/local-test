@@ -113,7 +113,6 @@
 				<apigee.org>${org}</apigee.org>
 				<apigee.username>${username}</apigee.username>
 				<apigee.password>${password}</apigee.password>
-				<apigee.options>${options}</apigee.options>
 			</properties>
 		</profile>
 	</profiles>
