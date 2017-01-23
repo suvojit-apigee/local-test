@@ -19,12 +19,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>parent-pom</artifactId>
-        <groupId>apigee</groupId>
+        <groupId>org.rssoftwarestaging.com</groupId>
         <version>1.0</version>
         <relativePath>../shared-pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>apigee</groupId>
+    <groupId>org.rssoftwarestaging.com</groupId>
     <artifactId>transactions</artifactId>
     <version>1.0</version>
     <name>transactions</name>

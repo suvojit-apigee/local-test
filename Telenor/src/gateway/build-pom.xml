@@ -19,15 +19,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
 	<groupId>org.rssoftwarestaging.com</groupId>
-	<artifactId>simple-parent</artifactId>
+	<artifactId>aggregator</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0</version>
     <modules>
-        <module>/Cards/pom.xml</module>
-        <module>/customerDetails/pom.xml</module>
-        <module>/Loyalty/pom.xml</module>
-        <module>/OTP/pom.xml</module>
-        <module>/transactions/pom.xml</module>
+        <module>Cards</module>
+        <module>customerDetails</module>
+        <module>Loyalty</module>
+        <module>OTP</module>
+        <module>transactions</module>
     </modules>
     <properties>
         <skip.incremental>false</skip.incremental>
