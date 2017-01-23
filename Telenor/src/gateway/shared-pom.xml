@@ -12,6 +12,13 @@
 	<artifactId>parent-pom</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0</version>
+	 <modules>
+        <module>/Cards/pom.xml</module>
+        <module>/customerDetails/pom.xml</module>
+        <module>/Loyalty/pom.xml</module>
+        <module>/OTP/pom.xml</module>
+        <module>/transactions/pom.xml</module>
+    </modules>
 	<pluginRepositories>
 		<pluginRepository>
 			<id>central</id>
